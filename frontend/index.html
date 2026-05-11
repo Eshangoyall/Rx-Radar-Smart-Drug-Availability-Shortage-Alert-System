@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rx Radar</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Rx Radar</h1>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Search</a>
+            <a href="#">Login</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h2>Smart Drug Availability & Shortage Alert System</h2>
+
+            <p>
+                Search medicines in nearby pharmacies and receive real-time shortage alerts.
+            </p>
+
+            <!-- Search Box -->
+            <div class="search-box">
+
+                <input 
+                    type="text" 
+                    id="medicineInput"
+                    placeholder="Enter medicine name..."
+                    onkeypress="handleKeyPress(event)"
+               >      
+
+                <button onclick="searchMedicine()">
+                    Search
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

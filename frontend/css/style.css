@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background-color: #0d6efd;
+    color: white;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+
+    margin-left: 20px;
+}
+
+/* Hero Section */
+
+.hero{
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content{
+    max-width: 700px;
+}
+
+.hero h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Search Box */
+
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input{
+    width: 350px;
+
+    padding: 15px;
+
+    border: 2px solid #ccc;
+    border-radius: 8px 0 0 8px;
+
+    font-size: 16px;
+}
+
+.search-box button{
+    padding: 15px 25px;
+
+    border: none;
+
+    background-color: #0d6efd;
+    color: white;
+
+    border-radius: 0 8px 8px 0;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+.search-box button:hover{
+    background-color: #0b5ed7;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Rx Radar</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <h1>Rx Radar</h1>
+
+        <button onclick="logoutUser()">
+            Logout
+        </button>
+
+    </nav>
+
+    <!-- Dashboard Content -->
+
+    <section class="dashboard">
+
+        <div class="welcome-card">
+
+            <h2 id="welcomeText">
+                Welcome
+            </h2>
+
+            <p>
+                Manage medicine alerts and track availability updates.
+            </p>
+
+        </div>
+
+        <!-- Feature Cards -->
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <h3>Medicine Search</h3>
+                <p>Search nearby pharmacies instantly.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Waitlist Alerts</h3>
+                <p>Get notified when medicines are available.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Shortage Reports</h3>
+                <p>Track critical medicine shortages.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Search - Rx Radar</title>
+
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <h1>Rx Radar</h1>
+
+        <div class="nav-links">
+
+            <a href="index.html">Home</a>
+
+            <a href="dashboard.html">Dashboard</a>
+
+            <a href="login.html">Login</a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Search Section -->
+
+    <section class="search-section">
+
+        <h2>Search Medicines</h2>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="medicineInput"
+                placeholder="Enter medicine name..."
+                
+            >
+
+            <button onclick="searchMedicine()">
+                Search
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Search Results -->
+
+    <section
+        class="results-container"
+        id="searchResults"
+    >
+
+    </section>
+
+    <script src="js/search.js"></script>
+
+</body>
+</html>
